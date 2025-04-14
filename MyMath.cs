@@ -2,23 +2,23 @@
 
 public class MyMath
 {
-    public static void Add(int a, int b)
+    public static int Add(int a, int b)
     {
-        int sum = a + b;
+        return a + b;
     }
 
-    public static  void Add(decimal a, decimal b, decimal c)
+    public static decimal Add(decimal a, decimal b, decimal c)
     {
-        decimal sum = a + b + c;
+        return a + b + c;
     }
     
-    public static  void Multiply(float a, float b)
+    public static  float Multiply(float a, float b)
     {
-        float product = a * b;
+       return a * b;
     }
 
-    public static  void Multiply(float a, float b, float c)
+    public static float Multiply(float a, float b, float c)
     {
-        float product = a * b * c;
+        return a * b * c;
     }
 }
