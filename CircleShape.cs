@@ -2,11 +2,11 @@
 
 public class CircleShape : Shape
 {
-    private float radius { get; set; }
-    private float area { get; set; }
+    public double Radius { get; set; }
+    public double Area { get; set; }
 
-    private void CalculateArea(float radius)
+    public void CalculateArea(double radius)
     {
-        double circleArea = radius * radius * Math.PI;
+        Area = radius * radius * Math.PI;
     }
 }
