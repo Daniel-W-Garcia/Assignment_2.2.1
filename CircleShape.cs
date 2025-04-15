@@ -7,6 +7,8 @@ public class CircleShape : Shape
 
     public double CalculateArea(double radius)
     {
-        return radius * radius * Math.PI;
+        Radius = radius;
+        Area = radius * radius * Math.PI;
+        return Area;
     }
 }
